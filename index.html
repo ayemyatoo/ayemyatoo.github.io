@@ -116,19 +116,21 @@
       padding: 1rem 0;
       background-color: #2b2f3a;
     }
-    nav a {
-      color: #4f80ff !important; /* Force blue for all states */
+
+    nav a,
+    nav a:visited,
+    nav a:focus,
+    nav a:active {
+      color: #4f80ff !important;
       text-decoration: none;
     }
-    nav a:visited,
-    nav a:active,
-    nav a:focus {
-      color: #4f80ff !important;
-    }
+
     nav a:hover {
+      color: #80aaff !important;
       text-decoration: underline;
     }
   </style>
+
   <ul>
     <li><a href="#about">About Me</a></li>
     <li><a href="#projects">Projects</a></li>
